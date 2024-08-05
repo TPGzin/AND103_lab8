@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtMaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sách" />
+
+    <EditText
+        android:id="@+id/edtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiêu đề" />
+
+    <EditText
+        android:id="@+id/edtTacGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tác giả" />
+
+    <EditText
+        android:id="@+id/edtNamXuatBan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm xuất bản"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtSoTrang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số trang"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thể loại" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm sách" />
+</LinearLayout>
